@@ -1,0 +1,1278 @@
+2023-11-17 08:59:46 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 18472 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 08:59:46 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 08:59:46 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 08:59:46 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58
+2023-11-17 08:59:49 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 08:59:49 [INFO] - Finished Spring Data repository scanning in 234 ms. Found 6 JPA repository interfaces.
+2023-11-17 08:59:53 [INFO] - HikariPool-1 - Starting...
+2023-11-17 08:59:54 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 08:59:56 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 08:59:56 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 08:59:59 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:00:00 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c4940d2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@524241d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7df1fc5a, org.springframework.security.web.header.HeaderWriterFilter@5a097a83, org.springframework.security.web.authentication.logout.LogoutFilter@1ced1fb9, com.cg.hbm.security.JwtAuthenticationFilter@272485a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@525aadf2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59fa5a39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f55aef7, org.springframework.security.web.session.SessionManagementFilter@66f88fd3, org.springframework.security.web.access.ExceptionTranslationFilter@4d65fbad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f271ae2]
+2023-11-17 09:00:00 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:00:01 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:00:01 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:00:01 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:00:02 [INFO] - Context refreshed
+2023-11-17 09:00:02 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:00:02 [INFO] - Scanning for api listing references
+2023-11-17 09:00:03 [INFO] - Started UserServiceImplTest in 17.495 seconds (JVM running for 19.814)
+2023-11-17 09:00:03 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58, started on Fri Nov 17 08:59:46 IST 2023
+2023-11-17 09:00:03 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:00:03 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:00:04 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:00:50 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 10376 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:00:50 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:00:50 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:00:51 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58
+2023-11-17 09:00:53 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:00:53 [INFO] - Finished Spring Data repository scanning in 195 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:00:56 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:00:57 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:00:59 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:00:59 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:01:02 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:01:02 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66790851, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3796ff4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c10f9f3, org.springframework.security.web.header.HeaderWriterFilter@525aadf2, org.springframework.security.web.authentication.logout.LogoutFilter@7a14d8a4, com.cg.hbm.security.JwtAuthenticationFilter@445c693, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5166fe7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27a8bfa1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ce045e3, org.springframework.security.web.session.SessionManagementFilter@539570b8, org.springframework.security.web.access.ExceptionTranslationFilter@14d7a962, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19cad9f0]
+2023-11-17 09:01:03 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:01:03 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:01:04 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:01:04 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:01:04 [INFO] - Context refreshed
+2023-11-17 09:01:04 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:01:04 [INFO] - Scanning for api listing references
+2023-11-17 09:01:05 [INFO] - Started UserServiceImplTest in 15.156 seconds (JVM running for 17.755)
+2023-11-17 09:01:05 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58, started on Fri Nov 17 09:00:51 IST 2023
+2023-11-17 09:01:05 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:01:05 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:01:05 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:01:27 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 19080 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:01:27 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:01:27 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:01:27 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0
+2023-11-17 09:01:29 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:01:29 [INFO] - Finished Spring Data repository scanning in 202 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:01:32 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:01:33 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:01:34 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:01:34 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:01:37 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:01:37 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3feeab43, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6178ac9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4f5d587c, org.springframework.security.web.header.HeaderWriterFilter@4a4979bf, org.springframework.security.web.authentication.logout.LogoutFilter@1dd01876, com.cg.hbm.security.JwtAuthenticationFilter@6aed4a23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39d62e47, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31e3b882, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7413c41, org.springframework.security.web.session.SessionManagementFilter@4f8488ef, org.springframework.security.web.access.ExceptionTranslationFilter@6dccdc50, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ffe7c42]
+2023-11-17 09:01:38 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:01:38 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:01:39 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:01:39 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:01:39 [INFO] - Context refreshed
+2023-11-17 09:01:39 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:01:40 [INFO] - Scanning for api listing references
+2023-11-17 09:01:40 [INFO] - Started UserServiceImplTest in 14.586 seconds (JVM running for 17.685)
+2023-11-17 09:01:41 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0, started on Fri Nov 17 09:01:27 IST 2023
+2023-11-17 09:01:41 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:01:41 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:01:41 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:02:34 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 17860 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:02:34 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:02:34 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:02:34 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0
+2023-11-17 09:02:36 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:02:37 [INFO] - Finished Spring Data repository scanning in 223 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:02:40 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:02:41 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:02:42 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:02:43 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:02:45 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:02:46 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69c7fe78, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ffe7c42, org.springframework.security.web.context.SecurityContextPersistenceFilter@14d7a962, org.springframework.security.web.header.HeaderWriterFilter@6124a7c0, org.springframework.security.web.authentication.logout.LogoutFilter@2b592f17, com.cg.hbm.security.JwtAuthenticationFilter@445c693, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59fa5a39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a087132, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f72aaed, org.springframework.security.web.session.SessionManagementFilter@1fae388c, org.springframework.security.web.access.ExceptionTranslationFilter@72f71ea2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74cd82f1]
+2023-11-17 09:02:46 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:02:47 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:02:47 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:02:47 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:02:48 [INFO] - Context refreshed
+2023-11-17 09:02:48 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:02:48 [INFO] - Scanning for api listing references
+2023-11-17 09:02:49 [INFO] - Started UserServiceImplTest in 15.771 seconds (JVM running for 18.492)
+2023-11-17 09:02:49 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0, started on Fri Nov 17 09:02:34 IST 2023
+2023-11-17 09:02:49 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:02:49 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:02:49 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:05:11 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 16716 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:05:11 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:05:11 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:05:11 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a8a8b75
+2023-11-17 09:05:13 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:05:13 [INFO] - Finished Spring Data repository scanning in 142 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:05:15 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:05:15 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:05:16 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:05:17 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:05:18 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:05:19 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d41518b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4708acc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@560e1459, org.springframework.security.web.header.HeaderWriterFilter@50c99398, org.springframework.security.web.authentication.logout.LogoutFilter@78907a46, com.cg.hbm.security.JwtAuthenticationFilter@5aec151b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d2ca3a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f45290f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59cc46a4, org.springframework.security.web.session.SessionManagementFilter@57e83608, org.springframework.security.web.access.ExceptionTranslationFilter@1df8ea34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62672ad5]
+2023-11-17 09:05:19 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:05:19 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:05:19 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:05:20 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:05:20 [INFO] - Context refreshed
+2023-11-17 09:05:20 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:05:20 [INFO] - Scanning for api listing references
+2023-11-17 09:05:20 [INFO] - Started UserServiceImplTest in 9.77 seconds (JVM running for 11.543)
+2023-11-17 09:05:21 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@a8a8b75, started on Fri Nov 17 09:05:11 IST 2023
+2023-11-17 09:05:21 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:05:21 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:05:21 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:05:49 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 13708 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:05:49 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:05:49 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:05:49 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0
+2023-11-17 09:05:51 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:05:51 [INFO] - Finished Spring Data repository scanning in 221 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:05:55 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:05:55 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:05:57 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:05:57 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:05:59 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:06:00 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58e46572, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5eba0cc5, org.springframework.security.web.context.SecurityContextPersistenceFilter@557f0a39, org.springframework.security.web.header.HeaderWriterFilter@7f680a9a, org.springframework.security.web.authentication.logout.LogoutFilter@268ee31d, com.cg.hbm.security.JwtAuthenticationFilter@3052395d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23acd55e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6971f5f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fb392e, org.springframework.security.web.session.SessionManagementFilter@5c815478, org.springframework.security.web.access.ExceptionTranslationFilter@4700db93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eed0375]
+2023-11-17 09:06:00 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:06:01 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:06:01 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:06:01 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:06:01 [INFO] - Context refreshed
+2023-11-17 09:06:02 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:06:02 [INFO] - Scanning for api listing references
+2023-11-17 09:06:02 [INFO] - Started UserServiceImplTest in 13.828 seconds (JVM running for 15.684)
+2023-11-17 09:06:03 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0, started on Fri Nov 17 09:05:49 IST 2023
+2023-11-17 09:06:03 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:06:03 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:06:03 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:06:50 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 11592 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:06:50 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:06:50 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:06:50 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58
+2023-11-17 09:06:52 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:06:52 [INFO] - Finished Spring Data repository scanning in 169 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:06:55 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:06:55 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:06:57 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:06:57 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:06:59 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:07:00 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69c7fe78, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ffe7c42, org.springframework.security.web.context.SecurityContextPersistenceFilter@14d7a962, org.springframework.security.web.header.HeaderWriterFilter@6124a7c0, org.springframework.security.web.authentication.logout.LogoutFilter@138a51d5, com.cg.hbm.security.JwtAuthenticationFilter@20fdaf3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7df1fc5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52bcd7c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f72aaed, org.springframework.security.web.session.SessionManagementFilter@1fae388c, org.springframework.security.web.access.ExceptionTranslationFilter@72f71ea2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@566dc0c3]
+2023-11-17 09:07:01 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:07:01 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:07:02 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:07:02 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:07:02 [INFO] - Context refreshed
+2023-11-17 09:07:02 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:07:02 [INFO] - Scanning for api listing references
+2023-11-17 09:07:03 [INFO] - Started UserServiceImplTest in 14.155 seconds (JVM running for 17.135)
+2023-11-17 09:07:04 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58, started on Fri Nov 17 09:06:50 IST 2023
+2023-11-17 09:07:04 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:07:04 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:07:04 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:08:53 [INFO] - Starting UserServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 13304 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:08:53 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:08:53 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:08:53 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58
+2023-11-17 09:08:55 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:08:55 [INFO] - Finished Spring Data repository scanning in 145 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:08:58 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:08:59 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:09:01 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:09:01 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:09:03 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:09:03 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27de9336, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19beeb61, org.springframework.security.web.context.SecurityContextPersistenceFilter@324afa73, org.springframework.security.web.header.HeaderWriterFilter@77a13162, org.springframework.security.web.authentication.logout.LogoutFilter@413a2520, com.cg.hbm.security.JwtAuthenticationFilter@677d4cea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5444c63f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22495f2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21139739, org.springframework.security.web.session.SessionManagementFilter@2387e60b, org.springframework.security.web.access.ExceptionTranslationFilter@5a097a83, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c925ae1]
+2023-11-17 09:09:04 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:09:04 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:09:04 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:09:04 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:09:05 [INFO] - Context refreshed
+2023-11-17 09:09:05 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:09:05 [INFO] - Scanning for api listing references
+2023-11-17 09:09:05 [INFO] - Started UserServiceImplTest in 12.934 seconds (JVM running for 15.371)
+2023-11-17 09:09:06 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@4dd94a58, started on Fri Nov 17 09:08:53 IST 2023
+2023-11-17 09:09:06 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:09:06 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:09:06 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:30:30 [INFO] - Starting HotelServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 18568 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:30:30 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:30:30 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:30:30 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0
+2023-11-17 09:30:31 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:30:31 [INFO] - Finished Spring Data repository scanning in 110 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:30:34 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:30:34 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:30:36 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:30:36 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:30:38 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:30:39 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13e12ab6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bafe1f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a925ac4, org.springframework.security.web.header.HeaderWriterFilter@25fb43a9, org.springframework.security.web.authentication.logout.LogoutFilter@cc4a0dd, com.cg.hbm.security.JwtAuthenticationFilter@627ad446, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f8488ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f5d587c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5be783a, org.springframework.security.web.session.SessionManagementFilter@2eef43f5, org.springframework.security.web.access.ExceptionTranslationFilter@5444c63f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27de9336]
+2023-11-17 09:30:39 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:30:39 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:30:39 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:30:39 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:30:40 [INFO] - Context refreshed
+2023-11-17 09:30:40 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:30:40 [INFO] - Scanning for api listing references
+2023-11-17 09:30:40 [INFO] - Started HotelServiceImplTest in 10.784 seconds (JVM running for 12.71)
+2023-11-17 09:30:41 [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@62435e70] to prepare test instance [com.cg.hbm.service.impl.HotelServiceImplTest@319e02e7]
+org.mockito.exceptions.base.MockitoException: 
+Cannot instantiate @InjectMocks field named 'hotelService'! Cause: the type 'IHotelService' is an interface.
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.initMocks(MockitoTestExecutionListener.java:83)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:60)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:95)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:91)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:60)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2023-11-17 09:30:41 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@2f4919b0, started on Fri Nov 17 09:30:30 IST 2023
+2023-11-17 09:30:41 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:30:41 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:30:41 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:31:35 [INFO] - Starting HotelServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 11700 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:31:35 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:31:35 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:31:35 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4c060c8f
+2023-11-17 09:31:36 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:31:36 [INFO] - Finished Spring Data repository scanning in 126 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:31:39 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:31:39 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:31:41 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:31:41 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:31:43 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:31:44 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f55aef7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69c7fe78, org.springframework.security.web.context.SecurityContextPersistenceFilter@203b98cf, org.springframework.security.web.header.HeaderWriterFilter@329b4b8b, org.springframework.security.web.authentication.logout.LogoutFilter@31e3b882, com.cg.hbm.security.JwtAuthenticationFilter@7a0df38e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25fb43a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71ad1d0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ffe7c42, org.springframework.security.web.session.SessionManagementFilter@106e6dfe, org.springframework.security.web.access.ExceptionTranslationFilter@44a7a331, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25bbca43]
+2023-11-17 09:31:44 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:31:45 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:31:45 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:31:45 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:31:45 [INFO] - Context refreshed
+2023-11-17 09:31:45 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:31:46 [INFO] - Scanning for api listing references
+2023-11-17 09:31:46 [INFO] - Started HotelServiceImplTest in 12.144 seconds (JVM running for 13.982)
+2023-11-17 09:31:47 [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@a5b0b86] to prepare test instance [com.cg.hbm.service.impl.HotelServiceImplTest@52ebacbf]
+org.mockito.exceptions.base.MockitoException: 
+Cannot instantiate @InjectMocks field named 'hotelService'! Cause: the type 'IHotelService' is an interface.
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.initMocks(MockitoTestExecutionListener.java:83)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:60)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:95)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:91)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:60)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2023-11-17 09:31:47 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@4c060c8f, started on Fri Nov 17 09:31:35 IST 2023
+2023-11-17 09:31:47 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:31:47 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:31:47 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:32:54 [INFO] - Starting HotelServiceImplTest using Java 17.0.7 on LIN-PG02HD5J with PID 12824 (started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:32:54 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:32:54 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:32:54 [DEBUG] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@27cbfddf
+2023-11-17 09:32:55 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:32:55 [INFO] - Finished Spring Data repository scanning in 120 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:32:57 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:32:58 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:32:59 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:32:59 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:33:01 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:33:01 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38a6ca39, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@797dd7ef, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b592f17, org.springframework.security.web.header.HeaderWriterFilter@5166fe7a, org.springframework.security.web.authentication.logout.LogoutFilter@560e1459, com.cg.hbm.security.JwtAuthenticationFilter@6eaf6ced, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a4c4261, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1027cdcd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ece7204, org.springframework.security.web.session.SessionManagementFilter@1ced1fb9, org.springframework.security.web.access.ExceptionTranslationFilter@5702e6f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e40edb7]
+2023-11-17 09:33:01 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:33:02 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:33:02 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:33:02 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:33:03 [INFO] - Context refreshed
+2023-11-17 09:33:03 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:33:03 [INFO] - Scanning for api listing references
+2023-11-17 09:33:04 [INFO] - Started HotelServiceImplTest in 10.021 seconds (JVM running for 11.58)
+2023-11-17 09:33:04 [ERROR] - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@33e01298] to prepare test instance [com.cg.hbm.service.impl.HotelServiceImplTest@3b256d50]
+org.mockito.exceptions.base.MockitoException: 
+Cannot instantiate @InjectMocks field named 'hotelService'! Cause: the type 'IHotelService' is an interface.
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.initMocks(MockitoTestExecutionListener.java:83)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:60)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:95)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:91)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:60)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2023-11-17 09:33:04 [DEBUG] - Closing org.springframework.web.context.support.GenericWebApplicationContext@27cbfddf, started on Fri Nov 17 09:32:54 IST 2023
+2023-11-17 09:33:04 [INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:33:04 [INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-17 09:33:04 [INFO] - HikariPool-1 - Shutdown completed.
+2023-11-17 09:42:41 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 7400 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 09:42:41 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 09:42:41 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 09:42:42 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-17 09:42:42 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-17 09:42:43 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 09:42:43 [INFO] - Finished Spring Data repository scanning in 104 ms. Found 6 JPA repository interfaces.
+2023-11-17 09:42:44 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-17 09:42:44 [INFO] - Starting service [Tomcat]
+2023-11-17 09:42:44 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-17 09:42:44 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-17 09:42:44 [INFO] - Root WebApplicationContext: initialization completed in 2897 ms
+2023-11-17 09:42:45 [INFO] - HikariPool-1 - Starting...
+2023-11-17 09:42:46 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 09:42:47 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 09:42:47 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-17 09:42:47 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 09:42:48 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 09:42:48 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f4f2673, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b97d29f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ffc9a22, org.springframework.security.web.header.HeaderWriterFilter@502abe4e, org.springframework.security.web.authentication.logout.LogoutFilter@6169a8a1, com.cg.hbm.security.JwtAuthenticationFilter@3f2e25b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@457650f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c1f6f7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f027bae, org.springframework.security.web.session.SessionManagementFilter@2da2c9e, org.springframework.security.web.access.ExceptionTranslationFilter@114102a9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63c818a]
+2023-11-17 09:42:48 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 09:42:49 [INFO] - LiveReload server is running on port 35729
+2023-11-17 09:42:49 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 09:42:49 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 09:42:49 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 09:42:49 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-17 09:42:49 [INFO] - Context refreshed
+2023-11-17 09:42:49 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 09:42:49 [INFO] - Scanning for api listing references
+2023-11-17 09:42:49 [INFO] - Started HotelBookingManagementSystemApplication in 8.565 seconds (JVM running for 9.348)
+2023-11-17 09:43:03 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-17 09:43:03 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-17 09:43:03 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-17 09:43:03 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-17 09:43:03 [DEBUG] - Detected FixedThemeResolver
+2023-11-17 09:43:03 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7292c6b7
+2023-11-17 09:43:03 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2ac543dd
+2023-11-17 09:43:03 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-17 09:43:03 [INFO] - Completed initialization in 2 ms
+2023-11-17 09:43:03 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-17 09:43:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-17 09:43:03 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-17 09:43:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:03 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-17 09:43:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-17 09:43:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-17 09:43:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:03 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-17 09:43:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:03 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:03 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:03 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:03 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:03 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:03 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-17 09:43:03 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-17 09:43:04 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:43:04 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@2c782ef8]
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-17 09:43:04 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:43:04 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@37980e61]
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-17 09:43:04 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:43:04 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@3e88a909]]
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-17 09:43:04 [DEBUG] - GET "/", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-17 09:43:04 [DEBUG] - Resource not found
+2023-11-17 09:43:04 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-17 09:43:04 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 09:43:04 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:04 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:43:04 [DEBUG] - Writing [{timestamp=Fri Nov 17 09:43:04 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-17 09:43:04 [DEBUG] - GET "/csrf", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-17 09:43:04 [DEBUG] - Resource not found
+2023-11-17 09:43:04 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-17 09:43:04 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 09:43:04 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:43:04 [DEBUG] - Writing [{timestamp=Fri Nov 17 09:43:04 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-17 09:43:04 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-17 09:43:04 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:43:04 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@6da271ff]
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-17 09:43:04 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:04 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:04 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-17 09:43:04 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:04 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:37 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2023-11-17 09:43:37 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:37 [DEBUG] - Completed 200 OK
+2023-11-17 09:43:43 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2023-11-17 09:43:43 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:43:43 [DEBUG] - Completed 200 OK
+2023-11-17 09:44:11 [DEBUG] - POST "/public/login", parameters={}
+2023-11-17 09:44:11 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-17 09:44:11 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-17 09:44:11 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-17 09:44:12 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-17 09:44:12 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:44:12 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDAyMTI0NTIsI (truncated)...]
+2023-11-17 09:44:12 [DEBUG] - Completed 200 OK
+2023-11-17 09:44:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2023-11-17 09:44:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 09:44:12 [DEBUG] - Completed 200 OK
+2023-11-17 09:44:46 [DEBUG] - GET "/admin/hotels/", parameters={}
+2023-11-17 09:44:46 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#getAllHotels()
+2023-11-17 09:44:46 [INFO] - Request received to fetch all hotels.
+2023-11-17 09:44:47 [INFO] - Returning 10 hotels in the response.
+2023-11-17 09:44:47 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:44:47 [DEBUG] - Writing [[HotelResponseDTO(hotelId=11, city=Mumbai, hotelName=Lemontree, address=Mumbai Maharashtra, descript (truncated)...]
+2023-11-17 09:44:47 [DEBUG] - Completed 200 OK
+2023-11-17 09:47:57 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:47:57 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:47:57 [DEBUG] - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.cg.hbm.dto.RoomDetailsResponseDTO> com.cg.hbm.controller.AdminController.createRoomDetails(com.cg.hbm.dto.RoomDetailsRequestDTO,int): JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 19] (through reference chain: com.cg.hbm.dto.RoomDetailsRequestDTO["roomNo"])
+2023-11-17 09:47:57 [WARN] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 6, column: 19] (through reference chain: com.cg.hbm.dto.RoomDetailsRequestDTO["roomNo"])]
+2023-11-17 09:47:57 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-17 09:47:57 [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2023-11-17 09:47:57 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 09:47:57 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:47:57 [DEBUG] - Writing [{timestamp=Fri Nov 17 09:47:57 IST 2023, status=400, error=Bad Request, trace=org.springframework.ht (truncated)...]
+2023-11-17 09:47:57 [DEBUG] - Exiting from "ERROR" dispatch, status 400
+2023-11-17 09:48:20 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:48:20 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:48:20 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A201, roomType=Premium, ratePerDay=5000.0, isavailable=true, fileName=d (truncated)...]
+2023-11-17 09:48:20 [INFO] - Received request to create room details for hotelId: 12
+2023-11-17 09:48:20 [INFO] - Room details created successfully for hotelId: 12
+2023-11-17 09:48:20 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:48:20 [DEBUG] - Writing [RoomDetailsResponseDTO(id=26, roomNo=A201, roomType=Premium, ratePerDay=5000.0, isavailable=true, fi (truncated)...]
+2023-11-17 09:48:20 [DEBUG] - Completed 201 CREATED
+2023-11-17 09:48:37 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:48:37 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:48:37 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A202, roomType=Deulxe, ratePerDay=6000.0, isavailable=true, fileName=de (truncated)...]
+2023-11-17 09:48:37 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#handleMethodArgsNotValidException(MethodArgumentNotValidException)
+2023-11-17 09:48:37 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:48:37 [DEBUG] - Writing [{roomType=must match "^(Premium|Suites|Deluxe|Double Deluxe)$"}]
+2023-11-17 09:48:37 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.hbm.dto.RoomDetailsResponseDTO> com.cg.hbm.controller.AdminController.createRoomDetails(com.cg.hbm.dto.RoomDetailsRequestDTO,int): [Field error in object 'roomDetailsRequestDTO' on field 'roomType': rejected value [Deulxe]; codes [Pattern.roomDetailsRequestDTO.roomType,Pattern.roomType,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [roomDetailsRequestDTO.roomType,roomType]; arguments []; default message [roomType],[Ljavax.validation.constraints.Pattern$Flag;@7d499aea,^(Premium|Suites|Deluxe|Double Deluxe)$]; default message [must match "^(Premium|Suites|Deluxe|Double Deluxe)$"]] ]
+2023-11-17 09:48:37 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-17 09:48:57 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:48:57 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:48:57 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A202, roomType=Deluxe, ratePerDay=6000.0, isavailable=true, fileName=de (truncated)...]
+2023-11-17 09:48:57 [INFO] - Received request to create room details for hotelId: 12
+2023-11-17 09:48:57 [INFO] - Room details created successfully for hotelId: 12
+2023-11-17 09:48:57 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:48:57 [DEBUG] - Writing [RoomDetailsResponseDTO(id=27, roomNo=A202, roomType=Deluxe, ratePerDay=6000.0, isavailable=true, fil (truncated)...]
+2023-11-17 09:48:57 [DEBUG] - Completed 201 CREATED
+2023-11-17 09:49:30 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:49:30 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:49:30 [DEBUG] - Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.cg.hbm.dto.RoomDetailsResponseDTO> com.cg.hbm.controller.AdminController.createRoomDetails(com.cg.hbm.dto.RoomDetailsRequestDTO,int): JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 5, column: 4]
+2023-11-17 09:49:30 [WARN] - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 5, column: 4]]
+2023-11-17 09:49:30 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-17 09:49:30 [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2023-11-17 09:49:30 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 09:49:30 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:49:30 [DEBUG] - Writing [{timestamp=Fri Nov 17 09:49:30 IST 2023, status=400, error=Bad Request, trace=org.springframework.ht (truncated)...]
+2023-11-17 09:49:30 [DEBUG] - Exiting from "ERROR" dispatch, status 400
+2023-11-17 09:49:42 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:49:42 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:49:42 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A203, roomType=Double Deluxe, ratePerDay=6000.0, isavailable=false, fil (truncated)...]
+2023-11-17 09:49:42 [INFO] - Received request to create room details for hotelId: 12
+2023-11-17 09:49:42 [INFO] - Room details created successfully for hotelId: 12
+2023-11-17 09:49:42 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:49:42 [DEBUG] - Writing [RoomDetailsResponseDTO(id=28, roomNo=A203, roomType=Double Deluxe, ratePerDay=6000.0, isavailable=fa (truncated)...]
+2023-11-17 09:49:42 [DEBUG] - Completed 201 CREATED
+2023-11-17 09:50:09 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:50:09 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:50:09 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A204, roomType=Suites, ratePerDay=6000.0, isavailable=false, fileName=d (truncated)...]
+2023-11-17 09:50:09 [INFO] - Received request to create room details for hotelId: 12
+2023-11-17 09:50:10 [INFO] - Room details created successfully for hotelId: 12
+2023-11-17 09:50:10 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:50:10 [DEBUG] - Writing [RoomDetailsResponseDTO(id=29, roomNo=A204, roomType=Suites, ratePerDay=6000.0, isavailable=false, fi (truncated)...]
+2023-11-17 09:50:10 [DEBUG] - Completed 201 CREATED
+2023-11-17 09:50:27 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:50:27 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:50:27 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A205, roomType=ds, ratePerDay=6000.0, isavailable=true, fileName=defaul (truncated)...]
+2023-11-17 09:50:27 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#handleMethodArgsNotValidException(MethodArgumentNotValidException)
+2023-11-17 09:50:27 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:50:27 [DEBUG] - Writing [{roomType=must match "^(Premium|Suites|Deluxe|Double Deluxe)$"}]
+2023-11-17 09:50:27 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.hbm.dto.RoomDetailsResponseDTO> com.cg.hbm.controller.AdminController.createRoomDetails(com.cg.hbm.dto.RoomDetailsRequestDTO,int): [Field error in object 'roomDetailsRequestDTO' on field 'roomType': rejected value [ds]; codes [Pattern.roomDetailsRequestDTO.roomType,Pattern.roomType,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [roomDetailsRequestDTO.roomType,roomType]; arguments []; default message [roomType],[Ljavax.validation.constraints.Pattern$Flag;@7d499aea,^(Premium|Suites|Deluxe|Double Deluxe)$]; default message [must match "^(Premium|Suites|Deluxe|Double Deluxe)$"]] ]
+2023-11-17 09:50:27 [DEBUG] - Completed 400 BAD_REQUEST
+2023-11-17 09:50:42 [DEBUG] - POST "/admin/roomdetails/add/12", parameters={}
+2023-11-17 09:50:42 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#createRoomDetails(RoomDetailsRequestDTO, int)
+2023-11-17 09:50:42 [DEBUG] - Read "application/json;charset=UTF-8" to [RoomDetailsRequestDTO(roomNo=A205, roomType=Premium, ratePerDay=12000.0, isavailable=true, fileName= (truncated)...]
+2023-11-17 09:50:42 [INFO] - Received request to create room details for hotelId: 12
+2023-11-17 09:50:42 [INFO] - Room details created successfully for hotelId: 12
+2023-11-17 09:50:42 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:50:42 [DEBUG] - Writing [RoomDetailsResponseDTO(id=30, roomNo=A205, roomType=Premium, ratePerDay=12000.0, isavailable=true, f (truncated)...]
+2023-11-17 09:50:42 [DEBUG] - Completed 201 CREATED
+2023-11-17 09:52:18 [DEBUG] - POST "/admin/roomdetails/room/image/upload/21", parameters={multipart}
+2023-11-17 09:52:18 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#uploadPostImage(MultipartFile, int)
+2023-11-17 09:52:18 [INFO] - Uploading image for Room ID: 21
+2023-11-17 09:52:18 [INFO] - Image uploaded successfully for Room ID: 21. File Name: 294685dd-b4a1-44c4-80a7-ebe015cea88a.jpg
+2023-11-17 09:52:18 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:52:18 [DEBUG] - Writing [RoomDetailsRequestDTO(roomNo=A101, roomType=Premium, ratePerDay=2000.0, isavailable=true, fileName=2 (truncated)...]
+2023-11-17 09:52:18 [DEBUG] - Completed 200 OK
+2023-11-17 09:52:48 [DEBUG] - POST "/admin/roomdetails/room/image/upload/22", parameters={multipart}
+2023-11-17 09:52:48 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#uploadPostImage(MultipartFile, int)
+2023-11-17 09:52:48 [INFO] - Uploading image for Room ID: 22
+2023-11-17 09:52:48 [INFO] - Image uploaded successfully for Room ID: 22. File Name: 973653b9-ec4f-4e79-9159-63a00e4e05c0.jpg
+2023-11-17 09:52:48 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:52:48 [DEBUG] - Writing [RoomDetailsRequestDTO(roomNo=A102, roomType=Suites, ratePerDay=5000.0, isavailable=true, fileName=97 (truncated)...]
+2023-11-17 09:52:48 [WARN] - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.cg.hbm.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000001.tmp
+	... 88 common frames omitted
+2023-11-17 09:52:48 [DEBUG] - Completed 200 OK
+2023-11-17 09:52:48 [WARN] - Failed to deleted temporary file used for part [image]
+java.io.UncheckedIOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000001.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:475)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:420)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000001.tmp
+	... 13 common frames omitted
+2023-11-17 09:52:58 [DEBUG] - POST "/admin/roomdetails/room/image/upload/23", parameters={multipart}
+2023-11-17 09:52:58 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#uploadPostImage(MultipartFile, int)
+2023-11-17 09:52:58 [INFO] - Uploading image for Room ID: 23
+2023-11-17 09:52:58 [INFO] - Image uploaded successfully for Room ID: 23. File Name: 42f8b28b-b4fa-457e-b6ca-0ee6a50990a8.jpg
+2023-11-17 09:52:58 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:52:58 [DEBUG] - Writing [RoomDetailsRequestDTO(roomNo=A103, roomType=Deluxe, ratePerDay=6000.0, isavailable=false, fileName=4 (truncated)...]
+2023-11-17 09:52:58 [WARN] - Failed to perform cleanup of multipart items
+java.io.UncheckedIOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000002.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.cleanupMultipart(StandardServletMultipartResolver.java:134)
+	at org.springframework.web.servlet.DispatcherServlet.cleanupMultipart(DispatcherServlet.java:1251)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1108)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.cg.hbm.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000002.tmp
+	... 88 common frames omitted
+2023-11-17 09:52:58 [DEBUG] - Completed 200 OK
+2023-11-17 09:52:58 [WARN] - Failed to deleted temporary file used for part [image]
+java.io.UncheckedIOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000002.tmp
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.delete(DiskFileItem.java:428)
+	at org.apache.catalina.core.ApplicationPart.delete(ApplicationPart.java:53)
+	at org.apache.catalina.connector.Request.recycle(Request.java:475)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:420)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: Cannot delete C:\Users\VJAGALE\AppData\Local\Temp\tomcat.6633.2951497645273026395\work\Tomcat\localhost\ROOT\upload_b5efe03c_d82e_4552_bf09_8518de16bb7f_00000002.tmp
+	... 13 common frames omitted
+2023-11-17 09:54:12 [DEBUG] - GET "/admin/roomdetails/images/294685dd-b4a1-44c4-80a7-ebe015cea88a.jpg", parameters={}
+2023-11-17 09:54:12 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#downloadImage(String, HttpServletResponse)
+2023-11-17 09:54:12 [INFO] - Downloading image: 294685dd-b4a1-44c4-80a7-ebe015cea88a.jpg
+2023-11-17 09:54:12 [INFO] - Image download successful: 294685dd-b4a1-44c4-80a7-ebe015cea88a.jpg
+2023-11-17 09:54:12 [DEBUG] - Completed 200 OK
+2023-11-17 09:54:53 [DEBUG] - GET "/admin/hotels/booked", parameters={}
+2023-11-17 09:54:53 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#getAllBookedHotels()
+2023-11-17 09:54:53 [INFO] - Request received to get all booked hotels.
+2023-11-17 09:54:53 [INFO] - Successfully retrieved all booked hotels.
+2023-11-17 09:54:53 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:54:53 [DEBUG] - Writing [[HotelResponseDTO(hotelId=11, city=Mumbai, hotelName=Lemontree, address=Mumbai Maharashtra, descript (truncated)...]
+2023-11-17 09:54:53 [DEBUG] - Completed 200 OK
+2023-11-17 09:55:10 [DEBUG] - GET "/admin/hotels/nonbooked", parameters={}
+2023-11-17 09:55:10 [DEBUG] - Mapped to com.cg.hbm.controller.AdminController#getAllNonBookedHotels()
+2023-11-17 09:55:10 [INFO] - Request received to get all non booked hotels.
+2023-11-17 09:55:10 [INFO] - Successfully retrieved all non booked hotels.
+2023-11-17 09:55:10 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 09:55:10 [DEBUG] - Writing [[HotelResponseDTO(hotelId=13, city=Mumbai, hotelName=Courtyard, address=Mumbai Maharashtra, descript (truncated)...]
+2023-11-17 09:55:10 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:33 [INFO] - Starting HotelBookingManagementSystemApplication using Java 17.0.7 on LIN-PG02HD5J with PID 936 (C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem\target\classes started by vjagale in C:\Users\VJAGALE\Desktop\Hotel\HotelBookingManagementSystem)
+2023-11-17 10:07:33 [DEBUG] - Running with Spring Boot v2.7.17, Spring v5.3.30
+2023-11-17 10:07:33 [INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-17 10:07:33 [INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-17 10:07:33 [INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-17 10:07:34 [INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-17 10:07:34 [INFO] - Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2023-11-17 10:07:35 [INFO] - Tomcat initialized with port(s): 6633 (http)
+2023-11-17 10:07:36 [INFO] - Starting service [Tomcat]
+2023-11-17 10:07:36 [INFO] - Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-17 10:07:36 [INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-17 10:07:36 [INFO] - Root WebApplicationContext: initialization completed in 2795 ms
+2023-11-17 10:07:36 [INFO] - HikariPool-1 - Starting...
+2023-11-17 10:07:37 [INFO] - HikariPool-1 - Start completed.
+2023-11-17 10:07:38 [INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-17 10:07:38 [DEBUG] - Filter 'jwtAuthenticationFilter' configured for use
+2023-11-17 10:07:39 [WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-17 10:07:39 [DEBUG] - 49 mappings in 'requestMappingHandlerMapping'
+2023-11-17 10:07:40 [INFO] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c7f594f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42d2a2fb, org.springframework.security.web.context.SecurityContextPersistenceFilter@282969e, org.springframework.security.web.header.HeaderWriterFilter@fc75a26, org.springframework.security.web.authentication.logout.LogoutFilter@746c28a, com.cg.hbm.security.JwtAuthenticationFilter@2468618a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fbbc22a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4126b43d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b0c1ec, org.springframework.security.web.session.SessionManagementFilter@1fe29683, org.springframework.security.web.access.ExceptionTranslationFilter@12c7a30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d2b5a9f]
+2023-11-17 10:07:40 [INFO] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-11-17 10:07:40 [INFO] - LiveReload server is running on port 35729
+2023-11-17 10:07:40 [DEBUG] - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-17 10:07:40 [DEBUG] - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-11-17 10:07:40 [DEBUG] - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-17 10:07:40 [INFO] - Tomcat started on port(s): 6633 (http) with context path ''
+2023-11-17 10:07:40 [INFO] - Context refreshed
+2023-11-17 10:07:40 [INFO] - Found 1 custom documentation plugin(s)
+2023-11-17 10:07:40 [INFO] - Scanning for api listing references
+2023-11-17 10:07:41 [INFO] - Started HotelBookingManagementSystemApplication in 8.682 seconds (JVM running for 9.412)
+2023-11-17 10:07:51 [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-17 10:07:51 [INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-17 10:07:51 [DEBUG] - Detected StandardServletMultipartResolver
+2023-11-17 10:07:51 [DEBUG] - Detected AcceptHeaderLocaleResolver
+2023-11-17 10:07:51 [DEBUG] - Detected FixedThemeResolver
+2023-11-17 10:07:51 [DEBUG] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2c17ee87
+2023-11-17 10:07:51 [DEBUG] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7a2bb038
+2023-11-17 10:07:51 [DEBUG] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-17 10:07:51 [INFO] - Completed initialization in 4 ms
+2023-11-17 10:07:51 [DEBUG] - GET "/swagger-ui.html", parameters={}
+2023-11-17 10:07:51 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-17 10:07:51 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:51 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+2023-11-17 10:07:51 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:51 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:51 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+2023-11-17 10:07:51 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:51 [DEBUG] - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+2023-11-17 10:07:51 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+2023-11-17 10:07:51 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:51 [DEBUG] - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+2023-11-17 10:07:51 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:51 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:51 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:51 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:51 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - GET "/swagger-resources/configuration/ui", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2023-11-17 10:07:52 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:07:52 [DEBUG] - Writing [springfox.documentation.swagger.web.UiConfiguration@2eeef981]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - GET "/swagger-resources/configuration/security", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2023-11-17 10:07:52 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:07:52 [DEBUG] - Writing [springfox.documentation.swagger.web.SecurityConfiguration@144bb759]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - GET "/swagger-resources", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2023-11-17 10:07:52 [DEBUG] - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:07:52 [DEBUG] - Writing [[springfox.documentation.swagger.web.SwaggerResource@a1af117]]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - GET "/v2/api-docs", parameters={}
+2023-11-17 10:07:52 [DEBUG] - GET "/", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-17 10:07:52 [DEBUG] - Resource not found
+2023-11-17 10:07:52 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-17 10:07:52 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 10:07:52 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:07:52 [DEBUG] - Writing [{timestamp=Fri Nov 17 10:07:52 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-17 10:07:52 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-17 10:07:52 [DEBUG] - GET "/csrf", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-17 10:07:52 [DEBUG] - Resource not found
+2023-11-17 10:07:52 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-17 10:07:52 [DEBUG] - "ERROR" dispatch for GET "/error", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 10:07:52 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:07:52 [DEBUG] - Writing [{timestamp=Fri Nov 17 10:07:52 IST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-11-17 10:07:52 [DEBUG] - Exiting from "ERROR" dispatch, status 404
+2023-11-17 10:07:52 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:07:52 [DEBUG] - Writing [springfox.documentation.spring.web.json.Json@7be77b30]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:52 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+2023-11-17 10:07:52 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+2023-11-17 10:07:52 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:07:52 [DEBUG] - Completed 200 OK
+2023-11-17 10:08:12 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+2023-11-17 10:08:12 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:08:12 [DEBUG] - Completed 200 OK
+2023-11-17 10:08:21 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+2023-11-17 10:08:21 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:08:21 [DEBUG] - Completed 200 OK
+2023-11-17 10:08:45 [DEBUG] - POST "/public/login", parameters={}
+2023-11-17 10:08:45 [DEBUG] - Mapped to com.cg.hbm.controller.AuthController#createToken(JwtAuthRequest)
+2023-11-17 10:08:45 [DEBUG] - Read "application/json;charset=UTF-8" to [JwtAuthRequest(username=vishal@test.com, password=Vish942)]
+2023-11-17 10:08:45 [INFO] - Attempting to authenticate user: vishal@test.com
+2023-11-17 10:08:46 [INFO] - User 'vishal@test.com' successfully authenticated and token generated.
+2023-11-17 10:08:46 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:08:46 [DEBUG] - Writing [JwtAuthResponse(token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ2aXNoYWxAdGVzdC5jb20iLCJleHAiOjE3MDAyMTM5MjYsI (truncated)...]
+2023-11-17 10:08:46 [DEBUG] - Completed 200 OK
+2023-11-17 10:08:46 [DEBUG] - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+2023-11-17 10:08:46 [DEBUG] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-11-17 10:08:46 [DEBUG] - Completed 200 OK
+2023-11-17 10:10:47 [DEBUG] - POST "/normaluser/bookings/user/1/hotel/21", parameters={}
+2023-11-17 10:10:47 [DEBUG] - Mapped to com.cg.hbm.controller.NormalUserController#createBookingDetails(BookingDetailsRequestDTO, int, int)
+2023-11-17 10:10:47 [DEBUG] - Read "application/json;charset=UTF-8" to [BookingDetailsRequestDTO(bookedFrom=2023-11-24, bookedTo=2023-11-28, noOfAdults=4, noOfChildren=2, a (truncated)...]
+2023-11-17 10:10:47 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#resourceNotFoundExceptionHandler(ResourceNotFoundException)
+2023-11-17 10:10:48 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:10:48 [DEBUG] - Writing [ApiResponse(message=Hotel not found with name hotelId: 21, status=false)]
+2023-11-17 10:10:48 [WARN] - Resolved [com.cg.hbm.exception.ResourceNotFoundException: Hotel not found with name hotelId: 21]
+2023-11-17 10:10:48 [DEBUG] - Completed 404 NOT_FOUND
+2023-11-17 10:11:28 [DEBUG] - POST "/normaluser/bookings/user/1/hotel/11", parameters={}
+2023-11-17 10:11:28 [DEBUG] - Mapped to com.cg.hbm.controller.NormalUserController#createBookingDetails(BookingDetailsRequestDTO, int, int)
+2023-11-17 10:11:28 [DEBUG] - Read "application/json;charset=UTF-8" to [BookingDetailsRequestDTO(bookedFrom=2023-11-24, bookedTo=2023-11-28, noOfAdults=4, noOfChildren=2, a (truncated)...]
+2023-11-17 10:11:28 [DEBUG] - Failed to complete request: org.springframework.dao.InvalidDataAccessApiUsageException: detached entity passed to persist: com.cg.hbm.entity.Payment; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.cg.hbm.entity.Payment
+2023-11-17 10:11:28 [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: detached entity passed to persist: com.cg.hbm.entity.Payment; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.cg.hbm.entity.Payment] with root cause
+org.hibernate.PersistentObjectException: detached entity passed to persist: com.cg.hbm.entity.Payment
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:120)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:780)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:748)
+	at org.hibernate.engine.spi.CascadingActions$7.cascade(CascadingActions.java:298)
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:510)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:434)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:220)
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:153)
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeBeforeSave(AbstractSaveEventListener.java:426)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:263)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy3/jdk.proxy3.$Proxy123.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:315)
+	at jdk.proxy3/jdk.proxy3.$Proxy123.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:76)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:241)
+	at jdk.proxy3/jdk.proxy3.$Proxy136.save(Unknown Source)
+	at com.cg.hbm.service.impl.BookingDetailsServiceImpl.createBookingDetails(BookingDetailsServiceImpl.java:53)
+	at com.cg.hbm.controller.NormalUserController.createBookingDetails(NormalUserController.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.cg.hbm.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-17 10:11:28 [DEBUG] - "ERROR" dispatch for POST "/error", parameters={}
+2023-11-17 10:11:28 [DEBUG] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-11-17 10:11:28 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:11:28 [DEBUG] - Writing [{timestamp=Fri Nov 17 10:11:28 IST 2023, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2023-11-17 10:11:28 [DEBUG] - Exiting from "ERROR" dispatch, status 500
+2023-11-17 10:11:48 [DEBUG] - POST "/normaluser/bookings/user/1/hotel/11", parameters={}
+2023-11-17 10:11:48 [DEBUG] - Mapped to com.cg.hbm.controller.NormalUserController#createBookingDetails(BookingDetailsRequestDTO, int, int)
+2023-11-17 10:11:48 [DEBUG] - Read "application/json;charset=UTF-8" to [BookingDetailsRequestDTO(bookedFrom=2023-11-24, bookedTo=2023-11-28, noOfAdults=4, noOfChildren=2, a (truncated)...]
+2023-11-17 10:11:48 [INFO] - Booking details created successfully for user 1 and hotel 11
+2023-11-17 10:11:48 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:11:48 [DEBUG] - Writing [BookingDetailsResponseDTO(id=32, bookedFrom=2023-11-24, bookedTo=2023-11-28, noOfAdults=4, noOfChild (truncated)...]
+2023-11-17 10:11:48 [DEBUG] - Completed 201 CREATED
+2023-11-17 10:14:14 [DEBUG] - POST "/normaluser/bookings/user/1/hotel/12", parameters={}
+2023-11-17 10:14:14 [DEBUG] - Mapped to com.cg.hbm.controller.NormalUserController#createBookingDetails(BookingDetailsRequestDTO, int, int)
+2023-11-17 10:14:14 [DEBUG] - Read "application/json;charset=UTF-8" to [BookingDetailsRequestDTO(bookedFrom=2023-11-07, bookedTo=2023-11-28, noOfAdults=4, noOfChildren=2, a (truncated)...]
+2023-11-17 10:14:14 [DEBUG] - Using @ExceptionHandler com.cg.hbm.exception.GlobalExceptionHandler#handleMethodArgsNotValidException(MethodArgumentNotValidException)
+2023-11-17 10:14:14 [DEBUG] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-11-17 10:14:14 [DEBUG] - Writing [{bookedFrom=must be a future date}]
+2023-11-17 10:14:14 [WARN] - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.hbm.dto.BookingDetailsResponseDTO> com.cg.hbm.controller.NormalUserController.createBookingDetails(com.cg.hbm.dto.BookingDetailsRequestDTO,int,int): [Field error in object 'bookingDetailsRequestDTO' on field 'bookedFrom': rejected value [2023-11-07]; codes [Future.bookingDetailsRequestDTO.bookedFrom,Future.bookedFrom,Future.java.time.LocalDate,Future]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookingDetailsRequestDTO.bookedFrom,bookedFrom]; arguments []; default message [bookedFrom]]; default message [must be a future date]] ]
+2023-11-17 10:14:14 [DEBUG] - Completed 400 BAD_REQUEST
